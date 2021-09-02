@@ -1,0 +1,64 @@
+.container{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    border: solid;
+   
+   
+  
+    height: 1500px;
+    
+
+ }
+ .left{
+    
+     border: solid;
+     background-color:skyblue;
+     margin: 5px;
+     width: 48%;
+   
+ }
+ .right{
+     @extend .left;
+    
+ }
+ button{
+
+   
+    position: absolute;
+    bottom: 10px;
+    right: 300px;
+   
+    
+
+
+ }
+ .theme1{
+     background-color: burlywood;
+     button{
+         background-color:darken($color: pink, $amount: 20%);
+     }
+     .left{
+         background-color:teal;
+
+     }
+     .right{
+         background-color: lighten($color: teal, $amount: 10%);
+     }
+
+ }
+ .theme2{
+     background-color: pink;
+     button{
+         background-color: brown;
+     }
+     .left{
+       background-color:palevioletred;
+
+   }
+   .right{
+       background-color: lighten($color: palevioletred, $amount: 10%);
+   }
+ }

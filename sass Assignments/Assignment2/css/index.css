@@ -1,0 +1,59 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border: solid;
+  height: 1500px;
+}
+
+.left, .right {
+  border: solid;
+  background-color: skyblue;
+  margin: 5px;
+  width: 48%;
+}
+
+button {
+  position: absolute;
+  bottom: 10px;
+  right: 300px;
+}
+
+.theme1 {
+  background-color: burlywood;
+}
+
+.theme1 button {
+  background-color: #ff5a77;
+}
+
+.theme1 .left, .theme1 .right {
+  background-color: teal;
+}
+
+.theme1 .right {
+  background-color: #00b3b3;
+}
+
+.theme2 {
+  background-color: pink;
+}
+
+.theme2 button {
+  background-color: brown;
+}
+
+.theme2 .left, .theme2 .right {
+  background-color: palevioletred;
+}
+
+.theme2 .right {
+  background-color: #e599b2;
+}
+/*# sourceMappingURL=index.css.map */

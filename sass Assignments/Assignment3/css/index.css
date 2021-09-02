@@ -1,0 +1,144 @@
+.theme-1 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.theme-1 body {
+  background-color: #ffff;
+  height: 350px;
+}
+
+.theme-1 .container {
+  background-color: #ffff;
+  display: flex;
+  border: 2px #3671df solid;
+  margin: 10px;
+  padding: 10px;
+  width: 500px;
+}
+
+.theme-1 .left {
+  padding: 10px;
+  margin: 5px;
+  flex: 2;
+  background-color: #a2a4ff;
+  height: 300px;
+}
+
+.theme-1 .right {
+  display: flex;
+  flex: 1;
+  padding: 10px;
+  margin: 5px;
+  background-color: #a2a4ff;
+  height: 300px;
+}
+
+.theme-1 .right button {
+  width: 150px;
+  padding: 10px 20px;
+  background: #5481e2;
+  color: aliceblue;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  align-self: flex-end;
+}
+
+.theme-2 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.theme-2 body {
+  background-color: #f1f07d;
+  height: 350px;
+}
+
+.theme-2 .container {
+  background-color: #f1f07d;
+  display: flex;
+  border: 2px #0d8a5a solid;
+  margin: 10px;
+  padding: 10px;
+  width: 500px;
+}
+
+.theme-2 .left {
+  padding: 10px;
+  margin: 5px;
+  flex: 2;
+  background-color: #3c7531;
+  height: 300px;
+}
+
+.theme-2 .right {
+  display: flex;
+  flex: 1;
+  padding: 10px;
+  margin: 5px;
+  background-color: #42eb67;
+  height: 300px;
+}
+
+.theme-2 .right button {
+  width: 150px;
+  padding: 10px 20px;
+  background: #d85825;
+  color: aliceblue;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  align-self: flex-end;
+}
+
+.theme-3 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.theme-3 body {
+  background-color: #f5c4c4;
+  height: 350px;
+}
+
+.theme-3 .container {
+  background-color: #f5c4c4;
+  display: flex;
+  border: 2px #3671df solid;
+  margin: 10px;
+  padding: 10px;
+  width: 500px;
+}
+
+.theme-3 .left {
+  padding: 10px;
+  margin: 5px;
+  flex: 2;
+  background-color: #e47230;
+  height: 300px;
+}
+
+.theme-3 .right {
+  display: flex;
+  flex: 1;
+  padding: 10px;
+  margin: 5px;
+  background-color: #e02b2b;
+  height: 300px;
+}
+
+.theme-3 .right button {
+  width: 150px;
+  padding: 10px 20px;
+  background: #1f1714;
+  color: aliceblue;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  align-self: flex-end;
+}
+/*# sourceMappingURL=index.css.map */

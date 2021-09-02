@@ -1,0 +1,57 @@
+@import '_variables.scss';
+#required{
+    Border-radius: 3px;
+Width:$width;
+height:$height;
+border:1px solid #ccc;
+font-style:SegoUI;
+font-size:13px;
+padding-left:10px;
+color:#666666;
+background-color:#ffffff;
+}
+#disabled{
+    Border: 1px solid #cccccc;
+background-color:#eeeeee;
+color:#999999;
+cursor: not-allowed;
+width: $width;
+height: $height;
+}
+#error{
+    background-color:#fde7e1;
+border:1px solid #f44336;
+color:#f44336;
+width: $width;
+height: $height;
+
+}
+.common{
+    border-radius: 3px;
+padding: 12px 15px 12px 15px;
+background-color: #8bc34a;
+border: 0;
+min-width: 110px;
+font-family: "SegoeUI SemiBold";
+font-size: 16px;
+color: #FFFFFF;
+}
+.primary-1{
+    @extend .common;
+    background-color: #8bc34a;
+color: #FFFFFF;
+border: 1px solid #8bc34a;
+}
+.primary-2{
+    @extend .common;
+    background-color: #eeeeee;
+color: #999999;
+border: 1px solid #eeeeee;
+
+}
+.secondary-1{
+    @extend .common
+}
+.secondary-2{
+    @extend .common
+}

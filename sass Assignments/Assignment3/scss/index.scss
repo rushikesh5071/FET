@@ -1,0 +1,53 @@
+@mixin theme($left-box-color,$right-box-color,$body-color,$border,$button-color) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: $body-color;
+    height: 350px;
+  }
+
+  .container {
+      background-color: $body-color;
+    display: flex;
+    border: 2px $border solid;
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+  }
+
+  .left {
+    padding: 10px;
+    margin: 5px;
+    flex: 2;
+    background-color:$left-box-color;
+    height: 300px;
+  }
+
+  .right {
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+    background-color: $right-box-color;
+    height: 300px;
+  }
+
+  .right button {
+    width: 150px;
+    padding: 10px 20px;
+    background: $button-color;
+    color: aliceblue;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    align-self: flex-end;
+  }
+}
+
+.theme-1{@include theme(rgb(162, 164, 255),rgb(162, 164, 255),#ffff,rgb(54, 113, 223),rgb(84, 129, 226))}
+.theme-2{@include theme(rgb(60, 117, 49),rgb(66, 235, 103),rgb(241, 240, 125),rgb(13, 138, 90),rgb(216, 88, 37))}
+.theme-3{@include theme(rgb(228, 114, 48),rgb(224, 43, 43),rgb(245, 196, 196),rgb(54, 113, 223),rgb(31, 23, 20))}

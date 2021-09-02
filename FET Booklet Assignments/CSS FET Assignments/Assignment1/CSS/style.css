@@ -1,0 +1,20 @@
+table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    height: 100vh;
+}
+
+tr,th,td{
+    padding: 10px;
+    border:1px solid black;
+}
+
+th{
+    background-color: darkgrey;
+}
+
+tr:nth-child(2n){
+    background-color: lawngreen;
+}
