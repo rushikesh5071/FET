@@ -1,0 +1,15 @@
+#demo{
+    width: 800px;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: 60px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  #btn{
+    width: 100px;
+    height: 50px;
+    margin-left: 260px;
+    font-size: 24px;
+  }
